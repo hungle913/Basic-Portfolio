@@ -1,0 +1,44 @@
+body {
+    color: #777777;
+    background-image: url(../images/gravel.png);
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    width: 200px;
+}
+
+section {
+    width: 960px;
+    clear: left;
+    background-color: white;
+}
+
+footer {
+    background: #666666;
+    text-align: center;
+    width: 960px;
+    height: 20px;
+    color: white;
+    padding-top: 40px;
+}
+
+header {
+    background-color: #ffffff;
+    width: 960px;
+    color: white;
+    text-align: center;
+    
+    float: left;
+    margin: 10px;
+}
+
+button {
+    float: right;
+}
+
+hr {
+    width: 900px;
+    color: gray;
+}
