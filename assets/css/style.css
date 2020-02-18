@@ -77,6 +77,18 @@ h3 {
   background: #4aaaa5;
 }
 
+.navbar-brand {
+  float: left;
+  margin-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  background-color: #4aaaa5;
+  color: white;
+
+
+}
+
 nav {
   float: right;
   margin-top: 25px;
@@ -87,9 +99,9 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
+  background-color: #4aaaa5;
+  color: white;
+
 }
 
 nav a:first-child {
