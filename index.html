@@ -1,62 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
+<!doctype html>
+<html lang="en-us">
 
-    </head>
-    <body>
-        <div class="wrapper">
-            <header id="header">
-                <h1>Hung Le 
-                </h1>
-            </header>
-                
-            <div class="buttons">
-                <button>Contact </button>
-                <button>Portfolio </button>
-                <button>About </button>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Your Name</title>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-            <hr id="first">
-   
-            <section>
+</head>
 
-                <h2>About Me</h2>
+<body>
 
-                <hr id="second">
-
-                <img id="myPhoto" src="assets/images/war.jpg" alt="About Me Photo">
-
-                <p id="topp">Hello! My name is Hung Le. I am looking to learn how to code and do something more challenging. I have changed careers several times throughout the years, mostly not by choice. I started off in IT doing help desk support for a company called Providian Financial. Providian decided to outsource the help desk role to a company in Canda and I was laid off from my job. I switched careers to real estate during the big housing boom. I was a loan document drawer for Wilmington finance about 2 years until the housing bubble burst. Wilmington Finance went out of business and I was laid off. I then switched careers again to do medicare sales for Anthem Blue Cross and Blue shield. I was doing sales for roughly 2 years before the company decided it was too expensive to have an office in the Bay Area so they forwarded all sales to their southern California location. Once again I was laid off. That is when I decided to go back into IT and was able to get a job as a Desktop Support Technician with Stryker. I was a full time employee with Stryker for 7 years until they decided to elimite the full time desktop support position and outsource to another company. Once again I was given a package and laid off. I am now looking to change careers again.
-                </p>
-
-                <p id="middlep">I am very excited to learn how to code. It's been 17 years since I have been in school and this is proving to be very tough. But I am super pumped to learn as much as possible and do the best I can. I might be learning a lot slower then the rest of the class but I will not give up! Hoping this will be the start to a great new career that will challenge me and keep things exciting during my day to day work life.
-                </p>
-
-                <p id="bottomp">When I'm feeling stressed or just need a break from the world I love to go fishing. Being on the water is one of the most relaxing things. I can go fishing for hours on end. Catching fish is a bonus. Just being out on the water is the best.
-                </p>
-
-
-            </section>
-
-            <hr id="third">
-
-            <div id="games">
-                <p>
-                    <h2>Here are a few things I have been working on.</h2>
-                    <ol>
-                        <li> <a href="https://hungle913.github.io/Psychic-Game/" target="_blank">Psychic-Game</a> </li>
-                        <li> <a href="https://hungle913.github.io/unit-4-game/" target="_blank">Crystal Game</a> </li> 
-                    </ol>
-                    
-                </p>
-            </div>
-
-            <footer>Copyright ©
-            </footer>
+  <header id="masthead">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../Bootstrap-Portfolio/index.html">Your Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <img src="assets/images/war.jpg" class="auth-image" alt="About me image.">
+        </div>
+        <div class="col-lg-9">
+          <p>Hello! My name is Hung Le. I am looking forward to learning how to code and do something more challenging for my career. I would like to be challeged everyday. I love to solve problems and create things. I've always been curious as to how apps are written and created. I believe this bootcamp will help me get to my final goal of app development.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p>I am very excited to learn how to code. It's been 17 years since I have been in school and this is proving to be very tough, but I am super pumped to learn as much as possible and do the best I can. I might be learning a lot slower then the rest of the class but I will not give up! I am hoping this will be the start to a great new career that will challenge me and keep things exciting during my day to day work life.</p>
+        </div>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <p>When I'm feeling stressed or just need a break from the world I love to go fishing. Being on the water is one of the most relaxing things. I can go fishing for hours on end. Just being out on the water is the best. Catching fish is a bonus. </p>
+        </div>
+      </div>
+    </div> 
+    </section>
+  </div>
+
+
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
